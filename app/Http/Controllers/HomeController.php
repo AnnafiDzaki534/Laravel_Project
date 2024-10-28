@@ -10,4 +10,9 @@ class HomeController extends Controller
         return view('index'); // ini merujuk ke halaman welcome 
 
     }
+
+    public function login(){
+        return view('login'); // ini merujuk ke halaman login
+
+    }
 }

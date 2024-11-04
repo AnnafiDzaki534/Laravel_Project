@@ -19,5 +19,6 @@ Route::get('/about', function () {
     return view('about'); // ini merujuk ke halaman login
 });
 
-Route::get('/index', [HomeController::class, 'index']);
-Route::get('/login', [HomeController::class, 'login']);
+Route::get('/index', [HomeController::class, 'index'])-> name('index');
+Route::get('/login', [HomeController::class, 'login'])-> name('login');
+Route::get('/about', [HomeController::class, 'about'])-> name('about');

@@ -15,6 +15,7 @@
                 <li><a href="#about" class="hover:underline">About</a></li>
                 <li><a href="#portofolio-gallery" class="hover:underline">Portofolio Gallery</a></li>
                 <li><a href="#kontak" class="hover:underline">Kontak</a></li>
+                <li><a href="login" class="hover:underline">login</a></li>
             </ul>
         </nav>
     </header>

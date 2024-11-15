@@ -22,3 +22,4 @@ Route::get('/about', function () {
 Route::get('/index', [HomeController::class, 'index'])-> name('index');
 Route::get('/login', [HomeController::class, 'login'])-> name('login');
 Route::get('/about', [HomeController::class, 'about'])-> name('about');
+Route::resource('Projects', ProductController::class);
